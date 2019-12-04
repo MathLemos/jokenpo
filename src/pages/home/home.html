@@ -1,0 +1,26 @@
+<ion-content padding>
+  <h3>JOKENPÔ SENAC</h3>
+
+  <h4>Escolha sua opção</h4>
+
+  <div id="jogo">
+    <img (click)="result(2)" src="assets/imgs/botao-tesoura.svg" />
+    <img (click)="result(1)" src="assets/imgs/botao-papel.svg" />
+    <img (click)="result(0)" src="assets/imgs/botao-pedra.svg" />
+  </div>
+
+  <h2>Computador</h2>
+
+  <div id="comp">
+    <p>{{computador}}</p>
+  </div>
+
+  <h2 id="repair">Resultado</h2>
+
+  <div id="result">
+    <p>{{resultado}}</p>
+  </div>
+
+
+
+</ion-content>

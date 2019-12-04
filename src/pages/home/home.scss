@@ -1,0 +1,89 @@
+    $bgtela: #262d66;
+
+    page-home {
+
+      ion-content {
+        background: $bgtela !important;
+      }
+
+      h3 {
+        position: absolute;
+        width: 134px;
+        height: 70px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        margin-left: 25%;
+
+        color: #ffffff;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 75%;
+
+        color: #ffffff;
+      }
+
+      h2 {
+        text-align: center;
+        margin-top: 45%;
+
+        color: #ffffff;
+      }
+
+      h4 {
+        text-align: center;
+        margin-top: 25%;
+
+        color: #ffffff;
+      }
+
+      #jogo {
+        position: absolute;
+        width: 320px;
+        height: 100px;
+        margin-top: 5%;
+        margin-bottom: 20%;
+        margin-left: 3%;
+      }
+
+      #comp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1C9AB1;
+        height: 18%;
+        border-radius: 6px;
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 39px;
+        line-height: 46px;
+      }
+      #repair{
+        text-align: center;
+        margin-top: 5%;
+
+        color: #ffffff; 
+      }
+      #result{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(192, 30, 30);
+        height: 18%;
+        border-radius: 6px;
+        color: white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 39px;
+        line-height: 46px;
+      }
+    }
